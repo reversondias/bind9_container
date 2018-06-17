@@ -1,0 +1,18 @@
+---
+# vars file for bind9_container
+# Use this dictionary registrys to maky new registrys in db file of bind9
+registrys:
+   registry1:
+      name: "mail"
+      type: "A"
+      ip: "172.17.0.10"
+   registry2:
+      name: "ftp"
+      type: "A"
+      ip: "172.17.0.11"
+
+reverse_registrys:
+   registry1:
+      name: "mail"
+      type: "A"
+      ip: "172.17.0.10"

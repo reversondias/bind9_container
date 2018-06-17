@@ -1,0 +1,8 @@
+---
+- name: Building Bind9 DNS
+  hosts: localhost
+  vars:
+    name_domain: localdomain.com.br
+    bind_port: 5355
+  roles:
+    - bind9_container
